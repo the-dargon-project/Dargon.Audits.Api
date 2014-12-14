@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 
 namespace Dargon.Audits.Api {
    public interface AuditEventBus : EventBus<AuditEvent> {
-      void Post(AuditEventType type, string eventKey);
-      void Event(AuditEventType eventType, string eventKey, string message, string data = null);
+      void Post(AuditEventType eventType, string eventKey, string message, string data = null);
    }
 }
