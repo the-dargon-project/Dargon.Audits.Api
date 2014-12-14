@@ -1,4 +1,4 @@
-﻿namespace Dargon.Audits.Api {
+﻿namespace Dargon.Audits {
    public enum AuditEventType {
       Debug = 0,
       Verbose = 1000,
