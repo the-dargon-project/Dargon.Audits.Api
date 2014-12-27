@@ -7,10 +7,11 @@
     <ProjectGuid>{45B5DF3D-EBDB-4CB2-979C-EBEEDA40431A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Dargon.Audits.Api</RootNamespace>
+    <RootNamespace>Dargon.Audits</RootNamespace>
     <AssemblyName>Dargon.Audits.Api</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5.3</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
