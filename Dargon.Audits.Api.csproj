@@ -43,6 +43,7 @@
     <Compile Include="AuditEvent.cs" />
     <Compile Include="AuditEventBus.cs" />
     <Compile Include="AuditEventType.cs" />
+    <Compile Include="Database.cs" />
     <Compile Include="EventBus.cs" />
     <Compile Include="Extensions.AuditEventBus.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
