@@ -1,9 +1,11 @@
 ﻿namespace Dargon.Audits {
    public class AuditEvent {
-      private readonly AuditEventType eventType;
-      private readonly string eventKey;
-      private readonly string eventMessage;
-      private readonly string eventData;
+      private AuditEventType eventType;
+      private string eventKey;
+      private string eventMessage;
+      private string eventData;
+
+      public AuditEvent() { }
 
       public AuditEvent(AuditEventType eventType, string eventKey, string eventMessage, string eventData) {
          this.eventType = eventType;
@@ -12,9 +14,9 @@
          this.eventData = eventData;
       }
 
-      public AuditEventType EventType { get { return eventType; } }
-      public string EventKey { get { return eventKey; } }
-      public string EventMessage { get { return eventMessage; } }
-      public string EventData { get { return eventData; } }
+      public virtual AuditEventType EventType { get { return eventType; } set { eventType = value; } }
+      public virtual string EventKey { get { return eventKey; } set { eventKey = value; } }
+      public virtual string EventMessage { get { return eventMessage; } set { eventMessage = value; } }
+      public virtual string EventData { get { return eventData; } set { eventData = value; } }
    }
 }
