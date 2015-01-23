@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Dargon.Audits {
+﻿namespace Dargon.Audits {
    public interface EventBus<T> {
       void Post(T obj);
 

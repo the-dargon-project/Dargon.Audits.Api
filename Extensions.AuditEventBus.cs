@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Dargon.Audits {
+﻿namespace Dargon.Audits {
    public static class Extensions {
       public static void Debug(this AuditEventBus bus, string eventKey, string message, string data) {
          bus.Post(AuditEventType.Debug, eventKey, message, data);
